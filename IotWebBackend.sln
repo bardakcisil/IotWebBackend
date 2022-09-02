@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.User", "IotWeb.User\IotWeb.User.csproj", "{DA58D1C0-63D6-4FA1-AC0B-40761AAF4242}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.API", "IotWeb.API\IotWeb.API.csproj", "{60D66150-33D9-4DBD-9EDD-AFCD11072DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.API", "IotWeb.API\IotWeb.API.csproj", "{60D66150-33D9-4DBD-9EDD-AFCD11072DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.Test", "IotWeb.Test\IotWeb.Test.csproj", "{C493F4BA-D16B-4CBE-826E-FE5A191F8B2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.Test", "IotWeb.Test\IotWeb.Test.csproj", "{C493F4BA-D16B-4CBE-826E-FE5A191F8B2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.DataAccess", "IotWeb.DataAccess\IotWeb.DataAccess.csproj", "{DF430E25-C279-499A-9E7E-B2C0F5FDBF0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.DataAccess", "IotWeb.DataAccess\IotWeb.DataAccess.csproj", "{DF430E25-C279-499A-9E7E-B2C0F5FDBF0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.Core", "IotWeb.Core\IotWeb.Core.csproj", "{3F7B677B-A333-4067-BCAD-E5F9EF7E788B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.Core", "IotWeb.Core\IotWeb.Core.csproj", "{3F7B677B-A333-4067-BCAD-E5F9EF7E788B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.Helper", "IotWeb.Helper\IotWeb.Helper.csproj", "{35517187-5060-433E-88C1-F0F99EBE3E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.Helper", "IotWeb.Helper\IotWeb.Helper.csproj", "{35517187-5060-433E-88C1-F0F99EBE3E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.Business", "IotWeb.Business\IotWeb.Business.csproj", "{884380FF-4D7C-416C-A23B-22AD3AD6B8DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.Business", "IotWeb.Business\IotWeb.Business.csproj", "{884380FF-4D7C-416C-A23B-22AD3AD6B8DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.Entities", "IotWeb.Entities\IotWeb.Entities.csproj", "{2DD9EE5E-067C-4DDF-BF5B-F99035FCB202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.Entities", "IotWeb.Entities\IotWeb.Entities.csproj", "{2DD9EE5E-067C-4DDF-BF5B-F99035FCB202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotWeb.Models", "IotWeb.Models\IotWeb.Models.csproj", "{F9D26309-4E67-4F95-8B2F-C55DB19F4304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.Models", "IotWeb.Models\IotWeb.Models.csproj", "{F9D26309-4E67-4F95-8B2F-C55DB19F4304}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotWeb.User", "IotWeb.User\IotWeb.User.csproj", "{09380FAA-48F5-4550-B399-7D5914F0C29F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA58D1C0-63D6-4FA1-AC0B-40761AAF4242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA58D1C0-63D6-4FA1-AC0B-40761AAF4242}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA58D1C0-63D6-4FA1-AC0B-40761AAF4242}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA58D1C0-63D6-4FA1-AC0B-40761AAF4242}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60D66150-33D9-4DBD-9EDD-AFCD11072DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60D66150-33D9-4DBD-9EDD-AFCD11072DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60D66150-33D9-4DBD-9EDD-AFCD11072DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{F9D26309-4E67-4F95-8B2F-C55DB19F4304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D26309-4E67-4F95-8B2F-C55DB19F4304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D26309-4E67-4F95-8B2F-C55DB19F4304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09380FAA-48F5-4550-B399-7D5914F0C29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09380FAA-48F5-4550-B399-7D5914F0C29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09380FAA-48F5-4550-B399-7D5914F0C29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09380FAA-48F5-4550-B399-7D5914F0C29F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
